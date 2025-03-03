@@ -1,0 +1,42 @@
+.penetretion-section3 {
+  background-color: #1a1a1a;
+  color: #ddd;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.penetretion3-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.penetretion3-section-title {
+  font-size: 24px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.orange {
+  color: #ff542e;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .penetretion3-section3 {
+    padding: 30px 15px;
+  }
+
+  .penetretion3-section-title {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

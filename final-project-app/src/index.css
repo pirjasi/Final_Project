@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Fix layout issues caused by font change */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", system-ui, Avenir, Helvetica, Arial, sans-serif; /* Apply Roboto */
+  position: relative;
+}
+
+body {
+  display: flex;
+  place-items: center;
+}
+
+h1 {
+  font-family: "Roboto", system-ui, Avenir, Helvetica, Arial, sans-serif; /* Apply Roboto */
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  font-family: "Roboto", system-ui, Avenir, Helvetica, Arial, sans-serif; /* Apply Roboto */
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+.app {
+  width: 100%;
+  overflow-x: hidden; /* Prevents unwanted horizontal scrolling */
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

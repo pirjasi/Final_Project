@@ -1,0 +1,70 @@
+.industries-section {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.industries-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff542e;
+  margin-bottom: 5px;
+}
+
+.industries-subtitle {
+  font-size: 18px;
+  font-weight: normal;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.industries-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.industry-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.industry-icon {
+  font-size: 40px;
+  color: #383636;
+}
+
+.industry-item span {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.line {
+  width: 60px;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.filled-btn {
+  padding: 10px 20px;
+  background: #ff542e;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+  margin-top: 20px;
+}
+
+.filled-btn:hover {
+  opacity: 0.8;
+}

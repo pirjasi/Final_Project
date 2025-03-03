@@ -1,0 +1,77 @@
+.newsletter-page {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.newsletter-hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url("./image/Newsletter.png") no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 5%;
+  color: black;
+}
+
+.newsletter-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(23, 22, 22, 0.733);
+}
+
+.newsletter-content {
+  position: relative;
+  margin-top: 99px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.newsletter-subtitle {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.newsletter-title {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 10px 0;
+  text-align: left;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+.newsletter-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  gap: 20px;
+  width: 100%;
+}
+
+.newsletter-date {
+  white-space: nowrap;
+}
+
+.newsletter-author {
+  color: #ff542e;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .newsletter-meta {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}

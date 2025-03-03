@@ -1,0 +1,169 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.footer-left {
+  flex: 1;
+  min-width: 250px;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 157px;
+  margin-bottom: 15px;
+  margin-right: 132px;
+  margin-top: 23px;
+}
+.certifications img {
+  width: 71px;
+  height: auto;
+  margin-left: 2px;
+}
+#certification3 {
+  width: 153px;
+  margin-top: 47px;
+  margin-right: 115px;
+}
+
+.certifications-container {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.footer-middle {
+  flex: 2;
+  min-width: 300px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px 57px;
+  margin-right: 280px;
+  margin-top: 26px;
+  font-size: 10px;
+}
+.footer-links h4 {
+  text-align: left;
+  font-size: 14px;
+}
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right {
+  min-width: 280px;
+  width: 40%;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input {
+  width: 104%;
+  padding: 6px;
+  margin-bottom: 10px;
+  background-color: #222;
+
+  color: white;
+  border-radius: -8px;
+}
+
+.contact-form textarea {
+  height: 60px;
+  background-color: #222;
+  width: 104%;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.checkbox input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.checkbox label {
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form button {
+  background-color: #ff542e;
+  color: #ffffff;
+  padding: 8px;
+  border: none;
+  border-radius: 0px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-info {
+  flex: 1;
+  min-width: 250px;
+  text-align: left;
+  font-size: 13px;
+}
+
+.contact-map {
+  width: 100%;
+  height: 120px;
+  border-radius: 5px;
+}
+
+.footer-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-top: 1px solid #ddd;
+  height: 54px;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.legal-section {
+  display: flex;
+  gap: 15px;
+}
+
+.legal-section a {
+  text-decoration: none;
+  color: #333;
+}
+
+.copyright-section {
+  color: #555;
+}

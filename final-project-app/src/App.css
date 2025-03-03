@@ -1,0 +1,87 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*/ section {
+  padding: 60px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+#services {
+  background-color: #333;
+}
+
+#industries {
+  background-color: #ffffff;
+}
+
+#partnerships {
+  background-color: #ffffff;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.service-item h3 {
+  margin-top: 0;
+}
+
+.bottom-nav {
+  width: 100%;
+  background-color: rgb(35 33 33 / 98%);
+  padding: 29px 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.nav-links {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.left-nav {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: white;
+}
+
+.right-nav {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-left: 595px;
+}
+
+.nav-links li {
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: #ff6f0f;
+  text-decoration: none;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}

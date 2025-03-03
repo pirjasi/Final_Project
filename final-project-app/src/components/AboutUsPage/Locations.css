@@ -1,0 +1,50 @@
+.locations {
+  background: url("/image/Locations.png") no-repeat center center/cover;
+  color: white;
+  padding: 1rem 1rem;
+  margin-top: 61px;
+}
+
+.locations-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.location-card {
+  text-align: left;
+}
+h3 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.locations h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.locations h2 span {
+  color: #ff542e;
+}
+
+.location-card::after {
+  content: "";
+  display: block;
+  width: 143%;
+  height: 2px;
+  background-color: #ff542e;
+  margin-top: 1rem;
+  text-align: left;
+}
+.locations-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.di .icon {
+  font-size: 1.5rem;
+  color: #ff542e;
+  margin-bottom: 0.5rem;
+}

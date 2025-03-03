@@ -1,0 +1,90 @@
+.client-stories-section {
+  text-align: center;
+  padding: 50px 20px;
+  background: #fff;
+}
+
+.client-stories-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.client-stories-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.testimonial-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex: 1;
+  min-width: 280px;
+  max-width: 400px;
+  padding: 20px;
+
+  border-radius: 8px;
+}
+
+.testimonial-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 146px;
+}
+
+.vertical-line {
+  width: 3px;
+  height: 100%;
+  background: #ff542e;
+}
+
+.testimonial-content {
+  text-align: left;
+}
+
+.client-story-badge {
+  background: #ff542e;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.client-story-company,
+.client-story-challenge,
+.client-story-solution,
+.client-story-outcome {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 1024px) {
+  .client-stories-wrapper {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .client-stories-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonial-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vertical-line {
+    height: 3px;
+    width: 100%;
+  }
+}

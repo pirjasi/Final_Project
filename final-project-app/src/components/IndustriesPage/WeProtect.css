@@ -1,0 +1,51 @@
+.we-protect-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.industry-card {
+  width: 203%;
+  max-width: 1233px;
+  background-color: #222;
+  color: white;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.industry-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 800px;
+}
+
+.learn-more-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff542e;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.learn-more-btn:hover {
+  background-color: #ff542e;
+}

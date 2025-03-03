@@ -1,0 +1,58 @@
+.Incident-Response-hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../SiemImage/Siem.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Incident-Response-hero-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Incident-Response-hero-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+.Incident-Response-title {
+  text-align: center;
+  font-size: 47px;
+}
+.Incident-Response-subtitle {
+  font-size: 12px;
+}
+.Incident-Response-highlight {
+  color: #ff542e;
+  font-weight: bold;
+}
+.vertical-lineIncident-Response {
+  width: 2px;
+  height: 100%;
+  background-color: #ff542e;
+  margin: 0 15px;
+}
+.Incident-Response-highlight {
+  color: #ff542e;
+}
+.Incident-Response-demo-btn {
+  background: #ff542e;
+  color: #bfbaba;
+  border: none;
+  padding: 8px 67px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3sease;
+  border-radius: 1px;
+  margin-top: 31px;
+}
+
+.Incident-Response-demo-btn:hover {
+  background: #ff542e;
+}

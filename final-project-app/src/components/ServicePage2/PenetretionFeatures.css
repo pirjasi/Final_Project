@@ -1,0 +1,60 @@
+.penetretion-features {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #ff542e;
+  margin-bottom: 10px;
+}
+
+h3.penetretion-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff542e;
+}
+
+.highlight {
+  color: #ff542e;
+}
+
+.penetretion-icon img {
+  width: 50px;
+  margin: 10px 0;
+}
+
+.penetretion-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.penetretion-box {
+  background: white;
+  color: black;
+  padding: 20px;
+  border: 2px solid #ff542e;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+
+.penetretion-box:hover {
+  background: #ff542e;
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .penetretion-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .penetretion-container {
+    grid-template-columns: 1fr;
+  }
+}

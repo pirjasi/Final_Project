@@ -1,0 +1,66 @@
+.Microsoft-section {
+  background-color: rgb(35 33 33 / 98%);
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Microsoft-content {
+  width: 80%;
+  background-color: #403f3f96;
+  padding: 30px;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Microsoft-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Microsoft-text {
+  flex: 1;
+  color: #ffffff;
+}
+
+.Microsoft-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.Microsoft-highlight {
+  color: #ff542e;
+}
+
+.Microsoft-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.Microsoft-images {
+  flex: 1;
+  max-width: 50%;
+}
+
+.Microsoft-images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .Microsoft-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Microsoft-images {
+    justify-content: center;
+  }
+}

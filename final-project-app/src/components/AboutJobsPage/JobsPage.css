@@ -1,0 +1,60 @@
+.jobs-page-hero {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.98);
+  background-size: cover;
+  background-attachment: fixed;
+  color: rgb(49, 42, 42);
+}
+.jobs-page-hero-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(243, 243, 243, 0.98);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jobs-page-hero-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.jobs-page-hero h1 {
+  font-size: 47px;
+  font-weight: bold;
+  white-space: break-spaces;
+  text-align: center;
+}
+
+.jobs-page-highlight {
+  color: #ff542e;
+}
+
+.jobs-page-subtitle {
+  font-size: 17px;
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.5;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+.jobs-filters {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 35px;
+}
+
+.jobs-filters select {
+  padding: 9px 15px;
+  border: 2px solid #ff542e;
+  border-radius: 1px;
+  font-size: 1rem;
+  background-color: #fff;
+  cursor: pointer;
+  min-width: 180px;
+  text-align: center;
+  font-weight: bold;
+}

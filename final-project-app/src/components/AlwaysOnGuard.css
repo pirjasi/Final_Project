@@ -1,0 +1,40 @@
+.always-on-guard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #f9f9f9;
+}
+
+.guard-content h3 {
+  font-size: 1.8rem;
+  color: #ff542e;
+  margin-bottom: 20px;
+}
+
+.outline-btn,
+.filled-btn {
+  padding: 8px 3px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.outline-btn {
+  border: 2px solid #ff542e;
+  background: transparent;
+  color: #ff542e;
+}
+
+.filled-btn {
+  background: #ff542e;
+  color: white;
+  border: none;
+}
+
+.guard-image img {
+  max-width: 63%;
+  margin-left: 70px;
+  height: auto;
+}

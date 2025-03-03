@@ -1,0 +1,57 @@
+.HeroIndustries {
+  width: 100%;
+  height: 100vh;
+  background: url("../SiemImage/Background3.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.HeroIndustries-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeroIndustries-content {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+.HeroIndustries-title {
+  text-align: center;
+  font-size: 47px;
+}
+.HeroIndustries-subtitle {
+  font-size: 12px;
+  text-align: center;
+}
+.HeroIndustries-highlight {
+  color: #ff542e;
+  font-weight: bold;
+}
+.vertical-lineHeroIndustries {
+  width: 2px;
+  height: 100%;
+  background-color: #ff542e;
+  margin: 0 15px;
+}
+
+.HeroIndustries-demo-btn {
+  background: #ff542e;
+  color: #bfbaba;
+  border: none;
+  padding: 8px 67px;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3sease;
+  border-radius: 1px;
+  margin-top: 31px;
+}
+
+.HeroIndustries-demo-btn:hover {
+  background: #ff542e;
+}

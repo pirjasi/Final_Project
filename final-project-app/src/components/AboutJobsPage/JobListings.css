@@ -1,0 +1,104 @@
+.job-listings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+  padding: 87px 108px;
+  background-color: rgba(243, 243, 243, 0.98);
+}
+
+.job-card {
+  background-color: #222;
+  color: white;
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+
+.job-card:hover {
+  transform: scale(1.03);
+}
+
+.apply-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #ff542e;
+  color: white;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.job-date {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.job-card h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.job-highlight {
+  color: #ff542e;
+  font-weight: bold;
+}
+
+.job-description {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.job-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.option-btn {
+  padding: 10px 15px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+}
+
+.option-btn:hover {
+  background-color: white;
+  color: #222;
+}
+
+.apply-btn {
+  background-color: #ff542e;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  width: 78%;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background 0.3sease;
+}
+
+.apply-btn:hover {
+  background-color: #ff542e;
+}
+@media (max-width: 768px) {
+  .job-listings {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

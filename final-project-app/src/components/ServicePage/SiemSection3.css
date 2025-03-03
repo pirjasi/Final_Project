@@ -1,0 +1,36 @@
+.siem-section3 {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 50px 10%;
+  text-align: left;
+}
+
+.siem-section3 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff542e;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.siem-section3 ul {
+  padding-left: 0;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+.siem-section3 ul li {
+  margin-bottom: 12px;
+  display: block;
+}
+
+.siem-section3 ul li strong {
+  display: block;
+  font-weight: bold;
+  color: #ff542e;
+}
+
+.siem-section3 ul li p {
+  margin: 0;
+  display: inline;
+}

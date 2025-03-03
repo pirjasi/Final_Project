@@ -1,0 +1,148 @@
+.lidership-section {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #333;
+  border-radius: 0%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lidership-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.lidership-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff542e;
+  margin-bottom: 10px;
+}
+
+.lidership-subtitle {
+  font-size: 18px;
+  color: #ccc;
+  max-width: 600px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.lidership-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.lidership-card {
+  background: #222;
+  display: flex;
+  padding: 0px 0px 29px 0px;
+  gap: 30px;
+  text-align: center;
+  width: 300px;
+  position: relative;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 90%, 0 100%);
+  transition: transform 0.3s ease;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.arrow-circle {
+  width: 30px;
+  height: 30px;
+  background-color: #ff542e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: -15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.arrow-icon {
+  color: white;
+  font-size: 20px;
+}
+
+.lidership-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.lidership-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+.lidership-description {
+  font-size: 14px;
+  color: #aaa;
+  top: 35px;
+  margin-bottom: 44px;
+  margin-top: -23px;
+}
+
+.lidership-arrow {
+  font-size: 20px;
+  color: #ff542e;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.lidership-link {
+  display: inline-block;
+  color: #ff542e;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 58px;
+  width: 30%;
+}
+
+.lidership-link:hover {
+  text-decoration: none;
+  color: #ff542e;
+}
+
+.lidership-button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  .lidership-cards {
+    flex-direction: column;
+  }
+}
+
+.arrow-circle {
+  width: 40px;
+  height: 40px;
+  background-color: #ff542e;
+  border-radius: 50%;
+  display: flex;
+  bottom: 36px;
+  left: 25px;
+  position: absolute;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.arrow-icon {
+  color: white;
+  font-size: 18px;
+}

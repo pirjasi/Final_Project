@@ -1,0 +1,66 @@
+.Salesforce-section {
+  background-color: rgb(35 33 33 / 98%);
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.Salesforce-content {
+  width: 80%;
+  background-color: #403f3f96;
+  padding: 30px;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Salesforce-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Salesforce-text {
+  flex: 1;
+  color: #ffffff;
+}
+
+.Salesforce-text h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.Salesforce-highlight {
+  color: #ff542e;
+}
+
+.Salesforce-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.Salesforce-images {
+  flex: 1;
+  max-width: 50%;
+}
+
+.Salesforce-images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .Salesforce-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Salesforce-images {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,125 @@
+.contactus-section {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.contact-header {
+  font-size: 1.8rem;
+  margin-bottom: 70px;
+}
+
+.contactus-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.contactus-info {
+  flex: 1;
+}
+
+.contactus-title {
+  font-size: 2rem;
+  color: #ff542e;
+}
+
+.contactus-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contactus-form label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contactus-form input,
+.contactus-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  background: #222;
+  color: white;
+}
+
+.contactus-form textarea {
+  height: 173px;
+}
+
+.contactus-form button {
+  background: #ff542e;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1rem;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contactus-form button:hover {
+  background: #ff542e;
+}
+
+.what-happens-next {
+  margin-top: 40px;
+  padding: 20px 0;
+}
+
+.what-happens-next h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.steps {
+  list-style: none;
+  padding: 0;
+  counter-reset: step-counter;
+}
+
+.steps li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: white;
+  position: relative;
+}
+
+.steps li::before {
+  content: counter(step-counter);
+  counter-increment: step-counter;
+  background-color: #ff542e;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.steps li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 35px;
+  width: 2px;
+  height: 20px;
+  background-color: #ff542e;
+}
